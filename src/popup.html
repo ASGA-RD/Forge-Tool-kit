@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Forge Toolkit</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <img src="icons/forge-128.png" alt="Forge Toolkit" class="logo">
+    <h3>Forge Toolkit</h3>
+  </div>
+    <h4>by ASGA.RD</h4>
+
+  <div class="tab-buttons">
+    <button class="tab-button active" data-tab="dimmer">Dimmer</button>
+    <button class="tab-button" data-tab="bass">Bass</button>
+  </div>
+
+    <!-- Dimmer Tab -->
+  <div id="dimmer-tab" class="tab active">
+    <div class="header">
+      <img src="icons/dimmer-16.png" alt="logo" class="logo2">
+      <h3>DimmerSwitch</h3>
+    </div>
+    <label for="brightness-slider">Brightness:</label>
+    <input type="range" id="brightness-slider" min="-1" max="1" step="0.01" value="0">
+
+    <label for="contrast-slider">Contrast:</label>
+    <input type="range" id="contrast-slider" min="-1" max="1" step="0.01" value="0">
+
+    <div class="switch-reset-container">
+      <div class="switch" id="dimmer-toggle"></div>
+      <button class="reset-button" id="dimmer-reset-button">Reset</button>
+    </div>
+  </div>
+
+  <!-- Bass Tab -->
+  <div id="bass-tab" class="tab">
+    <div class="header">
+      <img src="icons/bass-16.png" alt="logo" class="logo2">
+      <h3>DeepBass</h3>
+    </div>
+
+    <label for="bass-slider">Bass Boost:</label>
+    <input type="range" id="bass-slider" min="0" max="100" step="1" value="0">
+    <div class="ruler">
+      <span>0</span>
+      <span>50</span>
+      <span>100</span>
+    </div>
+
+    <div class="switch-reset-container">
+      <div class="switch" id="bass-toggle"></div>
+      <button class="reset-button" id="bass-reset-button">Reset</button>
+    </div>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
