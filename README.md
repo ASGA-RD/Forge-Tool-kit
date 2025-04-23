@@ -1,4 +1,4 @@
-<img src="img/preview01-v1.0.png" alt="preview02" width="150" />
+<img src="img/preview01-v1.0.png" alt="preview01" width="150" />
 
 # Forge-Toolkit
 
@@ -16,13 +16,13 @@ Forge-Toolkit is perfect for users looking to enhance their browsing experience 
 
 DeepBass is a browser extension that allows you to enhance the bass while listening to music on any website, improving your audio experience.
 
-<img src="img/preview02-v1.0.png" alt="preview01" width="300" />
+<img src="img/preview02-v1.0.png" alt="preview02" width="300" />
 
 ### DimmerSwitch
 
 DimmerSwitch is a browser extension that allows you to control the brightness and contrast of any website, enhancing your browsing experience.
 
-<img src="img/preview03-v1.0.png" alt="preview01" width="300" />
+<img src="img/preview03-v1.0.png" alt="preview03" width="300" />
 
 ---
 
