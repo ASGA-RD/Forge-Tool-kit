@@ -33,13 +33,6 @@ DimmerSwitch is a browser extension that allows you to control the brightness an
 
 ---
 
-## Team
-
-- Guilherme Andrade [@adr-g](https://github.com/adr-g)
-- André Silva [@andresilva669](https://github.com/andresilva669)
-
----
-
 > ## License
 >
 > This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
